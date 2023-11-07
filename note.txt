@@ -1,0 +1,10 @@
+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
+
+git init
+git add .
+git commit -m "first commit"
+git config --global user.email "georgeleroy.1997@gmail.com"
+git config --global user.name "Leroy George"
+git remote add origin https://github.com/leroygeorge/SaladApp.git
+git branch -M main
+git push -u origin main
