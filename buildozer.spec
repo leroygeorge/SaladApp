@@ -7,7 +7,7 @@ title = SaladApp
 package.name = SaladApp
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.georgeleroy.1997@gmail.com
+package.domain = com.saladapp.myapp
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -105,7 +105,7 @@ android.api = 33
 android.minapi = 22
 
 # (int) Android SDK version to use
-android.sdk = 20
+#android.sdk = 20
 
 # (str) Android NDK version to use
 android.ndk = 25b
