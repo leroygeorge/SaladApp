@@ -13,7 +13,7 @@ package.domain = com.saladapp.myapp
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = 
+source.include_exts = py,png,jpg,kv,atlas,jpeg
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -37,7 +37,7 @@ version = 0.404
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.9.9,hostpython3==3.9.9, kivy,sdl2_ttf,pillow
+requirements = python3==3.9.9,hostpython3==3.9.9,kivy,kivymd,sdl2_ttf,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -153,7 +153,7 @@ android.activity_class_name = org.kivy.android.PythonActivity
 
 # (str) Full name including package path of the Java class that implements Python Service
 # use that parameter to set custom Java class instead of PythonService
-android.service_class_name = org.kivy.android.PythonService
+#android.service_class_name = org.kivy.android.PythonService
 
 # (str) Android app theme, default is ok for Kivy-based app
 # android.apptheme = "@android:style/Theme.NoTitleBar"
