@@ -105,7 +105,7 @@ android.api = 33
 android.minapi = 22
 
 # (int) Android SDK version to use
-#android.sdk = 20
+android.sdk = 20
 
 # (str) Android NDK version to use
 android.ndk = 25b
@@ -141,7 +141,7 @@ android.entrypoint = org.kivy.android.PythonActivity
 
 # (str) Full name including package path of the Java class that implements Android Activity
 # use that parameter together with android.entrypoint to set custom Java class instead of PythonActivity
-#android.activity_class_name = org.kivy.android.PythonActivity
+android.activity_class_name = org.kivy.android.PythonActivity
 
 # (str) Extra xml to write directly inside the <manifest> element of AndroidManifest.xml
 # use that parameter to provide a filename from where to load your custom XML code
@@ -153,7 +153,7 @@ android.entrypoint = org.kivy.android.PythonActivity
 
 # (str) Full name including package path of the Java class that implements Python Service
 # use that parameter to set custom Java class instead of PythonService
-#android.service_class_name = org.kivy.android.PythonService
+android.service_class_name = org.kivy.android.PythonService
 
 # (str) Android app theme, default is ok for Kivy-based app
 # android.apptheme = "@android:style/Theme.NoTitleBar"
@@ -262,11 +262,11 @@ android.entrypoint = org.kivy.android.PythonActivity
 
 # (list) The Android archs to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
 # In past, was `android.arch` as we weren't supporting builds for multiple archs at the same time.
-android.archs = armeabi-v7a, arm64-v8a, x86, x86_64
+android.archs = arm64-v8a
 
 # (int) overrides automatic versionCode computation (used in build.gradle)
 # this is not the same as app version and should only be edited if you know what you're doing
-# android.numeric_version = 1
+#android.numeric_version = 1
 
 # (bool) enables Android auto backup feature (Android API >=23)
 android.allow_backup = True
